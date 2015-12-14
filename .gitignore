@@ -37,3 +37,7 @@ build-*
 
 # Ctags
 src/tags
+
+# pour le build
+build/
+bin/
