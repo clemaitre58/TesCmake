@@ -19,7 +19,7 @@
 typedef core::Point3D<float_t> Point3D;
 typedef core::StructuredPointCloud<Point3D> PointCloud;
 
-bool LoadFile(const char* name,PointCloud& pts)
+inline bool LoadFile(const char* name,PointCloud& pts)
 {
 	const char* map_name = "depth2world.bin";
 	bool res = true;
