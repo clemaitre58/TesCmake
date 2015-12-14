@@ -1,5 +1,5 @@
 #include "Vertex.h"
-#include "util.h"
+//#include "util.h"
 #include <iostream>
 #include <cmath>
 #include <map>
